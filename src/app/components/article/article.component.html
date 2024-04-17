@@ -1,0 +1,25 @@
+<!-- <div class="article" (click)="onClick()">
+    <div class='photo'[ngStyle]="{'background-image':'url(' + imageUrl1 +')'}">
+    </div>
+    <div class="card-footer">
+        <div>
+            <h2 class='card-title'>{{ text1 }}</h2>
+            <h3 class='card-text'>{{ text2 }}</h3>
+        </div>
+
+    </div>
+</div> -->
+
+
+<div class="article">
+
+    <div (click)="onClick()" class="photo" [ngStyle]="{'background-image': photo}">
+    </div>
+
+    <div class="card-footer">
+        <div>
+            <h2 class="card-title">{{ title }}</h2>
+            <h3 class="card-title">{{ text }}</h3>
+        </div>
+    </div>
+</div>

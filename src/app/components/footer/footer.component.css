@@ -1,0 +1,19 @@
+/* Estilos del Footer */
+footer{
+    background-color: #9d2042;
+    padding: 40px;
+    color: white;
+}
+
+
+.custom-bg-color {
+    background-color: #9d2042; 
+}
+
+.sobre-nosotros{
+    text-align: justify;
+}
+
+p{
+    color: white;
+}

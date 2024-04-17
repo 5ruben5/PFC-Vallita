@@ -1,0 +1,30 @@
+
+/* Estilo de contacto */
+#contact {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact .container {
+    width: 80%;
+}
+
+#contact form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px #9d2042;
+}
+
+#boton{
+    background-color: #9d2042;
+    border: #bd3c5e;
+}
+
+/* Estilos personalizados para los campos de formulario */
+.form-control:focus {
+    border-color: #9d2042; /* Cambia este valor por el color morado deseado */
+    box-shadow: 0 0 0 0.2rem #bd3c5e; /* Cambia este valor por el color morado deseado */
+}

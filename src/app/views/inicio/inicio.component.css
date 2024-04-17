@@ -1,0 +1,13 @@
+/* icono de washapp */
+#whatsapp-button {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    z-index: 1000;
+  }
+  
+  #whatsapp-button img {
+    width: 100px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
+    cursor: pointer;
+  }

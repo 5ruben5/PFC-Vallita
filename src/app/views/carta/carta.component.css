@@ -1,0 +1,24 @@
+.card-body {
+    background-color: #9d2042;
+    border-bottom-left-radius: 15px; /* Redondear solo la parte inferior */
+    border-bottom-right-radius: 15px; /* Redondear solo la parte inferior */
+}
+
+.contenedor-centrado {
+    text-align: center; /* Centra horizontalmente el contenido */
+}
+
+.boton-descarga {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #9d2042; /* Color de fondo inicial */
+    color: white;
+    text-decoration: none;
+    border-radius: 10px; /* Bordes redondeados */
+    border: none;
+    transition: background-color 0.3s; /* Transición suave para el cambio de color */
+}
+
+.boton-descarga:hover {
+    background-color: #bd3c5e; /* Color de fondo al pasar el mouse */
+}

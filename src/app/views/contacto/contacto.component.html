@@ -1,0 +1,82 @@
+<!--Contact Section-->
+<section id="contact"  class="col-lg-8 offset-lg-2 col-sm-10 offset-sm-1 offset-sm-1" ><br><br>
+
+    <section class="row align-items-center">
+
+        <article class="col-lg-5 d-flex ">
+            <div>
+                <div>
+                    <i></i>
+                    <h4>Localización: <img src="../../../assets/image/iconoLocalicacion.png" width="25" alt="imagen telefono"></h4>
+                    <p>Paterna, Valencia, España</p>
+                </div>
+
+                <div>
+                    <h4>Email: <img src="../../../assets/image/iconoGmail.png" width="25" alt="imagen telefono"></h4>
+                    <p>vallita&#64;bar.com</p>
+                </div>
+
+                <div>
+                    <h4>Teléfono:  <img src="../../../assets/image/iconoTelefono.png" width="25" alt="imagen telefono"></h4>
+                    <p>+34 667 43 21 22</p>
+                </div>
+
+                <!-- Mapa de Localización -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3078.6164120504054!2d-0.4453692248745339!3d39.50057541089093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6045db8892968d%3A0xcd43408220ed121f!2sVallita%20Gastrobar!5e0!3m2!1ses!2ses!4v1711363358557!5m2!1ses!2ses"
+                    frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen>
+                </iframe>
+            </div>
+
+        </article>
+
+        <article class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="procesar_formulario.php" method="post" role="form">
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Nombre:</label>
+                        <input type="text" name="name" class="form-control" id="name" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" class="form-control" name="telefono" id="telefono" required pattern="[0-9]{9}" title="Por favor, introduce 9 números">
+                    </div>                    
+                </div><br>
+
+                <div class="form-group">
+                    <label for="seleccion">Lugar de Reserva</label>
+                    <select class="form-control" name="seleccion" id="seleccion" required>
+                        <option value="" disabled selected>Selecciona una opción</option>
+                        <option value="terraza">Terraza</option>
+                        <option value="local">Dentro del local</option>
+                    </select>
+                </div><br>
+
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="num_adultos">Número de Adultos</label>
+                        <input type="number" class="form-control" name="num_adultos" id="num_adultos" required min="0">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="num_ninos">Número de Niños</label>
+                        <input type="number" class="form-control" name="num_ninos" id="num_ninos" required min="0">
+                    </div>
+                </div><br>
+
+                <div class="form-group">
+                    <label for="fecha_reserva">Día de Reserva</label>
+                    <input type="date" class="form-control" name="fecha_reserva" id="fecha_reserva" required>
+                </div><br>
+                
+
+                <div class="form-group">
+                    <label for="time">Hora de Reserva</label>
+                    <input type="time" class="form-control" name="time" id="time" required>
+                </div><br><br>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary" id="boton">Enviar Reserva</button>
+                </div>
+            </form>
+        </article>
+    </section>
+</section><br><br>

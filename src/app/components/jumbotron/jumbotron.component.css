@@ -1,0 +1,27 @@
+.Jumbotron {
+    background-image: url('../../../assets/image/JumbotronVallita.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 30% 5%; /* Aumentando el padding verticalmente */
+    text-align: left;
+    border-radius: 5px;
+    font-size: 1.5em; /* Tamaño de fuente ajustable */
+    line-height: 1.5; /* Espacio entre líneas ajustable */
+}
+
+/* Ajustes adicionales para pantallas pequeñas */
+@media (max-width: 768px) {
+    Jumbotron {
+        padding: 30% 10%; /* Ajustando el padding para pantallas pequeñas */
+        font-size: 1.2em;
+    }
+}
+
+/* Ajustes adicionales para pantallas muy pequeñas */
+@media (max-width: 480px) {
+    Jumbotron {
+        padding: 40% 15%; /* Ajustando el padding para pantallas muy pequeñas */
+        font-size: 1em;
+    }
+}
