@@ -1,27 +1,51 @@
-# MiProyecto
+# Proyecto Final de Curso: Página Web para Bar Vallita
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.5.
+## Descripción
 
-## Development server
+Este proyecto consiste en el desarrollo de una página web para el Bar Vallita, un establecimiento de comida y bebida con temática venezolana. La página web tiene como objetivo principal brindar información sobre el bar, su ubicación, menú, eventos especiales y promociones.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Características Principales
 
-## Code scaffolding
+- **Diseño Responsivo:** La página web está diseñada para adaptarse a diferentes dispositivos y tamaños de pantalla, garantizando una experiencia de usuario óptima tanto en computadoras de escritorio como en dispositivos móviles.
+- **Información del Bar:** Se proporciona información detallada sobre el Bar Vallita, incluyendo su historia, valores, y el equipo detrás del negocio.
+- **Menú Interactivo:** Los usuarios pueden explorar el menú del bar de manera interactiva, con descripciones de platos y bebidas, así como precios actualizados.
+- **Formulario de Contacto:** Los clientes potenciales pueden ponerse en contacto con el bar a través de un formulario integrado en la página web.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologías Utilizadas
 
-## Build
+- **HTML5 y CSS3:** Para la estructura y el diseño de la página web.
+- **JavaScript:** Para implementar funcionalidades interactivas y dinámicas en la interfaz de usuario.
+- **Bootstrap:** Se utilizó el framework Bootstrap para facilitar el diseño responsive y la creación de componentes reutilizables.
+- **Angular:** Para el desarrollo estructural de la página web he usuaro angular ya que es muy estructurado y podemos reutilizar componetes com el header y el footer.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Instrucciones de Instalación y Uso
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Link de la Página Vallita: https://vallita.netlify.app
 
-## Running end-to-end tests
+1. Clona este repositorio en tu máquina local utilizando el siguiente comando:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+    ```
+    git clone https://github.com/5ruben5/proyecto-bar-vallita.git
+    ```
 
-## Further help
+2. Instala las dependencias del proyecto ejecutando el siguiente comando en la raíz del proyecto:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    ```
+    npm install
+    ```
+
+3. Inicia el servidor local utilizando el siguiente comando:
+
+    ```
+    ng serve
+    ```
+
+4. Abre tu navegador web y visita `http://localhost:4000` para acceder a la página web del Bar Vallita.
+
+
+## Contacto
+
+Si tienes preguntas o sugerencias sobre el proyecto, no dudes en ponerte en contacto en [correo electrónico del equipo](rubencorsario5@gmail.com).
+
+¡Gracias por tu interés en el proyecto!
