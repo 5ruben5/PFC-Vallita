@@ -46,6 +46,6 @@ Link de la Página Vallita: https://vallita.netlify.app
 
 ## Contacto
 
-Si tienes preguntas o sugerencias sobre el proyecto, no dudes en ponerte en contacto en [rubencorsario5@gmail.com].
+Si tienes preguntas o sugerencias sobre el proyecto, no dudes en ponerte en contacto en rubencorsario5@gmail.com.
 
 ¡Gracias por tu interés en el proyecto!
