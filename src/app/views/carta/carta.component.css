@@ -22,3 +22,16 @@
 .boton-descarga:hover {
     background-color: #bd3c5e; /* Color de fondo al pasar el mouse */
 }
+
+/* Estilo personalizado para el botón morado */
+.btn-custom-purple {
+    background-color: #bd3c5e; /* Fondo morado */
+    border-color: #9d2042; /* Borde morado */
+    color: #ffffff; /* Texto blanco */
+}
+
+/* Estilo para cambiar el color del texto cuando el usuario pasa el ratón sobre el botón */
+.btn-custom-purple:hover {
+    background-color: #7c1631; /* Fondo morado más oscuro */
+    border-color: #7c1631; /* Borde morado más oscuro */
+}
