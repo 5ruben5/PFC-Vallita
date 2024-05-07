@@ -31,21 +31,21 @@
         </article>
 
         <article class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="procesar_formulario.php" method="post" role="form">
+            <form action="https://formsubmit.co/rubenmartinezpaginasweb@gmail.com" method="POST" role="form">
                 <div class="row">
                     <div class="form-group col-md-6">
                         <label for="name">Nombre:</label>
-                        <input type="text" name="name" class="form-control" id="name" required>
+                        <input type="text" name="Nombre" class="form-control" id="name" required>
                     </div>
                     <div class="form-group col-md-6">
                         <label for="telefono">Teléfono</label>
-                        <input type="tel" class="form-control" name="telefono" id="telefono" required pattern="[0-9]{9}" title="Por favor, introduce 9 números">
+                        <input type="tel" class="form-control" name="Teléfono" id="telefono" required pattern="[0-9]{9}" title="Por favor, introduce 9 números">
                     </div>                    
                 </div><br>
 
                 <div class="form-group">
                     <label for="seleccion">Lugar de Reserva</label>
-                    <select class="form-control" name="seleccion" id="seleccion" required>
+                    <select class="form-control" name="Lugar" id="seleccion" required>
                         <option value="" disabled selected>Selecciona una opción</option>
                         <option value="terraza">Terraza</option>
                         <option value="local">Dentro del local</option>
@@ -55,27 +55,30 @@
                 <div class="row">
                     <div class="form-group col-md-6">
                         <label for="num_adultos">Número de Adultos</label>
-                        <input type="number" class="form-control" name="num_adultos" id="num_adultos" required min="0">
+                        <input type="number" class="form-control" name="Número Adultos" id="num_adultos" required min="0">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="num_ninos">Número de Niños</label>
-                        <input type="number" class="form-control" name="num_ninos" id="num_ninos" required min="0">
+                        <input type="number" class="form-control" name="Número Niños" id="num_ninos" required min="0">
                     </div>
                 </div><br>
 
                 <div class="form-group">
                     <label for="fecha_reserva">Día de Reserva</label>
-                    <input type="date" class="form-control" name="fecha_reserva" id="fecha_reserva" required>
+                    <input type="date" class="form-control" name="Fecha Reserva" id="fecha_reserva" required>
                 </div><br>
                 
 
                 <div class="form-group">
                     <label for="time">Hora de Reserva</label>
-                    <input type="time" class="form-control" name="time" id="time" required>
+                    <input type="time" class="form-control" name="Hora" id="time" required>
                 </div><br><br>
                 <div class="text-center">
                     <button type="submit" class="btn btn-primary" id="boton">Enviar Reserva</button>
                 </div>
+
+                <input type="hidden" name="_next" value="http://localhost:4200/inicio">
+                <input type="hidden" name="_captcha" value="false">
             </form>
         </article>
     </section>
