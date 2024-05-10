@@ -2,40 +2,19 @@
     background-color: #9d2042;
     border-bottom-left-radius: 15px; /* Redondear solo la parte inferior */
     border-bottom-right-radius: 15px; /* Redondear solo la parte inferior */
+    
 }
 
-.contenedor-centrado {
-    text-align: center; /* Centra horizontalmente el contenido */
+.card {
+    border-bottom-left-radius: 15px; /* Redondear solo la parte inferior */
+    border-bottom-right-radius: 15px; /* Redondear solo la parte inferior */
+    transition: box-shadow 0.3s ease; /* Transición suave para la sombra */
 }
 
-.boton-descarga {
-    display: inline-block;
-    padding: 20px 20px;
-    background-color: #9d2042; /* Color de fondo inicial */
-    color: white;
-    text-decoration: none;
-    border-radius: 10px; /* Bordes redondeados */
-    border: none;
-    transition: background-color 0.3s; /* Transición suave para el cambio de color */
+.card:hover,
+.card:active {
+    box-shadow: 0 20px 30px #9d2042; /* Sombras más pronunciadas al hacer hover o clic */
 }
-
-.boton-descarga:hover {
-    background-color: #bd3c5e; /* Color de fondo al pasar el mouse */
-}
-
-/* Estilo personalizado para el botón morado */
-.btn-custom-purple {
-    background-color: #bd3c5e; /* Fondo morado */
-    border-color: #9d2042; /* Borde morado */
-    color: #ffffff; /* Texto blanco */
-}
-
-/* Estilo para cambiar el color del texto cuando el usuario pasa el ratón sobre el botón */
-.btn-custom-purple:hover {
-    background-color: #7c1631; /* Fondo morado más oscuro */
-    border-color: #7c1631; /* Borde morado más oscuro */
-}
-
 
 /* Precio del producto */
 .header-circle {
@@ -59,3 +38,27 @@
     font-weight: bold;
 }
 
+
+/* Botón para descargar la carta */
+.boton-descarga {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #9d2042; /* Color de fondo inicial */
+    color: white;
+    text-decoration: none;
+    border-radius: 10px; /* Bordes redondeados */
+    border: none;
+    transition: background-color 0.3s; /* Transición suave para el cambio de color */
+}
+
+.boton-descarga:hover,
+.boton-descarga:active {
+    background-color: #bd3c5e; /* Color de fondo al pasar el mouse o hacer clic */
+    box-shadow: 0 20px 30px #9d2042; /* Sombras más pronunciadas al hacer hover o clic */
+    transition: box-shadow 0.3s ease; /* Transición suave para la sombra */
+}
+
+
+.contenedor-centrado {
+    text-align: center; /* Centra horizontalmente el contenido */
+}
