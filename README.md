@@ -22,6 +22,7 @@ Este proyecto consiste en el desarrollo de una página web para el Bar Vallita, 
 ## Instrucciones de Instalación y Uso
 
 Link de la Página Vallita: https://vallita.netlify.app
+Link Video Explicativo Youtube: https://youtu.be/mUIxdD5xR7M
 
 1. Clona este repositorio en tu máquina local utilizando el siguiente comando:
 
